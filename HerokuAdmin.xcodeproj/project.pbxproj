@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E9BE15A275D655A0061C4F1 /* HerokuAdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE159275D655A0061C4F1 /* HerokuAdminApp.swift */; };
+		6E9BE15C275D655A0061C4F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE15B275D655A0061C4F1 /* ContentView.swift */; };
+		6E9BE15E275D655B0061C4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BE15D275D655B0061C4F1 /* Assets.xcassets */; };
+		6E9BE161275D655B0061C4F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BE160275D655B0061C4F1 /* Preview Assets.xcassets */; };
+		6E9BE16B275D655B0061C4F1 /* HerokuAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE16A275D655B0061C4F1 /* HerokuAdminTests.swift */; };
+		6E9BE175275D655B0061C4F1 /* HerokuAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE174275D655B0061C4F1 /* HerokuAdminUITests.swift */; };
+		6E9BE177275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE176275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E9BE167275D655B0061C4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9BE14E275D655A0061C4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9BE155275D655A0061C4F1;
+			remoteInfo = HerokuAdmin;
+		};
+		6E9BE171275D655B0061C4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9BE14E275D655A0061C4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9BE155275D655A0061C4F1;
+			remoteInfo = HerokuAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E9BE156275D655A0061C4F1 /* HerokuAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerokuAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9BE159275D655A0061C4F1 /* HerokuAdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminApp.swift; sourceTree = "<group>"; };
+		6E9BE15B275D655A0061C4F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E9BE15D275D655B0061C4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E9BE160275D655B0061C4F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E9BE166275D655B0061C4F1 /* HerokuAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9BE16A275D655B0061C4F1 /* HerokuAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminTests.swift; sourceTree = "<group>"; };
+		6E9BE170275D655B0061C4F1 /* HerokuAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9BE174275D655B0061C4F1 /* HerokuAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminUITests.swift; sourceTree = "<group>"; };
+		6E9BE176275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9BE153275D655A0061C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9BE163275D655B0061C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9BE16D275D655B0061C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E9BE14D275D655A0061C4F1 = {
+			isa = PBXGroup;
+			children = (
+				6E9BE158275D655A0061C4F1 /* HerokuAdmin */,
+				6E9BE169275D655B0061C4F1 /* HerokuAdminTests */,
+				6E9BE173275D655B0061C4F1 /* HerokuAdminUITests */,
+				6E9BE157275D655A0061C4F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E9BE157275D655A0061C4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BE156275D655A0061C4F1 /* HerokuAdmin.app */,
+				6E9BE166275D655B0061C4F1 /* HerokuAdminTests.xctest */,
+				6E9BE170275D655B0061C4F1 /* HerokuAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E9BE158275D655A0061C4F1 /* HerokuAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BE159275D655A0061C4F1 /* HerokuAdminApp.swift */,
+				6E9BE15B275D655A0061C4F1 /* ContentView.swift */,
+				6E9BE15D275D655B0061C4F1 /* Assets.xcassets */,
+				6E9BE15F275D655B0061C4F1 /* Preview Content */,
+			);
+			path = HerokuAdmin;
+			sourceTree = "<group>";
+		};
+		6E9BE15F275D655B0061C4F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BE160275D655B0061C4F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E9BE169275D655B0061C4F1 /* HerokuAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BE16A275D655B0061C4F1 /* HerokuAdminTests.swift */,
+			);
+			path = HerokuAdminTests;
+			sourceTree = "<group>";
+		};
+		6E9BE173275D655B0061C4F1 /* HerokuAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BE174275D655B0061C4F1 /* HerokuAdminUITests.swift */,
+				6E9BE176275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift */,
+			);
+			path = HerokuAdminUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E9BE155275D655A0061C4F1 /* HerokuAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9BE17A275D655B0061C4F1 /* Build configuration list for PBXNativeTarget "HerokuAdmin" */;
+			buildPhases = (
+				6E9BE152275D655A0061C4F1 /* Sources */,
+				6E9BE153275D655A0061C4F1 /* Frameworks */,
+				6E9BE154275D655A0061C4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HerokuAdmin;
+			productName = HerokuAdmin;
+			productReference = 6E9BE156275D655A0061C4F1 /* HerokuAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E9BE165275D655B0061C4F1 /* HerokuAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9BE17D275D655B0061C4F1 /* Build configuration list for PBXNativeTarget "HerokuAdminTests" */;
+			buildPhases = (
+				6E9BE162275D655B0061C4F1 /* Sources */,
+				6E9BE163275D655B0061C4F1 /* Frameworks */,
+				6E9BE164275D655B0061C4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9BE168275D655B0061C4F1 /* PBXTargetDependency */,
+			);
+			name = HerokuAdminTests;
+			productName = HerokuAdminTests;
+			productReference = 6E9BE166275D655B0061C4F1 /* HerokuAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E9BE16F275D655B0061C4F1 /* HerokuAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9BE180275D655B0061C4F1 /* Build configuration list for PBXNativeTarget "HerokuAdminUITests" */;
+			buildPhases = (
+				6E9BE16C275D655B0061C4F1 /* Sources */,
+				6E9BE16D275D655B0061C4F1 /* Frameworks */,
+				6E9BE16E275D655B0061C4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9BE172275D655B0061C4F1 /* PBXTargetDependency */,
+			);
+			name = HerokuAdminUITests;
+			productName = HerokuAdminUITests;
+			productReference = 6E9BE170275D655B0061C4F1 /* HerokuAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E9BE14E275D655A0061C4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6E9BE155275D655A0061C4F1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6E9BE165275D655B0061C4F1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6E9BE155275D655A0061C4F1;
+					};
+					6E9BE16F275D655B0061C4F1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6E9BE155275D655A0061C4F1;
+					};
+				};
+			};
+			buildConfigurationList = 6E9BE151275D655A0061C4F1 /* Build configuration list for PBXProject "HerokuAdmin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E9BE14D275D655A0061C4F1;
+			productRefGroup = 6E9BE157275D655A0061C4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9BE155275D655A0061C4F1 /* HerokuAdmin */,
+				6E9BE165275D655B0061C4F1 /* HerokuAdminTests */,
+				6E9BE16F275D655B0061C4F1 /* HerokuAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9BE154275D655A0061C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9BE161275D655B0061C4F1 /* Preview Assets.xcassets in Resources */,
+				6E9BE15E275D655B0061C4F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9BE164275D655B0061C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9BE16E275D655B0061C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9BE152275D655A0061C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9BE15C275D655A0061C4F1 /* ContentView.swift in Sources */,
+				6E9BE15A275D655A0061C4F1 /* HerokuAdminApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9BE162275D655B0061C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9BE16B275D655B0061C4F1 /* HerokuAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9BE16C275D655B0061C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9BE177275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift in Sources */,
+				6E9BE175275D655B0061C4F1 /* HerokuAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E9BE168275D655B0061C4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9BE155275D655A0061C4F1 /* HerokuAdmin */;
+			targetProxy = 6E9BE167275D655B0061C4F1 /* PBXContainerItemProxy */;
+		};
+		6E9BE172275D655B0061C4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9BE155275D655A0061C4F1 /* HerokuAdmin */;
+			targetProxy = 6E9BE171275D655B0061C4F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E9BE178275D655B0061C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E9BE179275D655B0061C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E9BE17B275D655B0061C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HerokuAdmin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E9BE17C275D655B0061C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HerokuAdmin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E9BE17E275D655B0061C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerokuAdmin.app/HerokuAdmin";
+			};
+			name = Debug;
+		};
+		6E9BE17F275D655B0061C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HerokuAdmin.app/HerokuAdmin";
+			};
+			name = Release;
+		};
+		6E9BE181275D655B0061C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerokuAdmin;
+			};
+			name = Debug;
+		};
+		6E9BE182275D655B0061C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HerokuAdmin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9BE151275D655A0061C4F1 /* Build configuration list for PBXProject "HerokuAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9BE178275D655B0061C4F1 /* Debug */,
+				6E9BE179275D655B0061C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9BE17A275D655B0061C4F1 /* Build configuration list for PBXNativeTarget "HerokuAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9BE17B275D655B0061C4F1 /* Debug */,
+				6E9BE17C275D655B0061C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9BE17D275D655B0061C4F1 /* Build configuration list for PBXNativeTarget "HerokuAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9BE17E275D655B0061C4F1 /* Debug */,
+				6E9BE17F275D655B0061C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9BE180275D655B0061C4F1 /* Build configuration list for PBXNativeTarget "HerokuAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9BE181275D655B0061C4F1 /* Debug */,
+				6E9BE182275D655B0061C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E9BE14E275D655A0061C4F1 /* Project object */;
+}
