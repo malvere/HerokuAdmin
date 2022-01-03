@@ -5,7 +5,7 @@
 </h1>
 
 <p align=center>
-  <img src="https://github.com/malvere/HerokuAdmin/blob/main/HerokuAdmin-icon.png" width=20%>
+  <img src="https://github.com/malvere/HerokuAdmin/blob/main/ReadmeImages/HerokuAdminIcon.png" width=20%>
   <img src="https://github.com/malvere/HerokuAdmin/blob/main/ReadmeImages/view.png">
 </p>
  
