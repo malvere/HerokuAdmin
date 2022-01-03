@@ -1,3 +1,9 @@
+<h1 align="center">
+  <br>
+  HerokuAdmin
+  <br>
+</h1>
+
 <p align=center>
   <img src="https://github.com/malvere/HerokuAdmin/blob/main/HerokuAdmin-icon.png" width=50%>
 </p>
