@@ -5,7 +5,8 @@
 </h1>
 
 <p align=center>
-  <img src="https://github.com/malvere/HerokuAdmin/blob/main/HerokuAdmin-icon.png" width=50%>
+  <img src="https://github.com/malvere/HerokuAdmin/blob/main/HerokuAdmin-icon.png" width=20%>
+  <img src="https://github.com/malvere/HerokuAdmin/blob/main/ReadmeImages/view.png">
 </p>
  
 [![Platform](https://img.shields.io/badge/Platform-iOS-green)](https://www.apple.com/ios/)
