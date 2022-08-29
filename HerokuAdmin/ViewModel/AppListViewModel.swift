@@ -35,6 +35,7 @@ class AppListViewModel: ObservableObject {
                 let appList = try JSONDecoder().decode([HerokuApp].self, from: data)
                 DispatchQueue.main.async {
                     self?.appListView = appList
+                    
                 }
             }
             catch {

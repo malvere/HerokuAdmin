@@ -7,19 +7,20 @@
 
 import SwiftUI
 
-struct PieSegment: Shape {
-    var start: Angle
-    var end: Angle
-    
-    func path(in rect: CGRect) -> Path {
-        var path = Path()
-        let center = CGPoint(x: rect.midX, y: rect.midY)
-        path.addArc(center: center, radius: rect.midX, startAngle: start, endAngle: end, clockwise: false)
-        return path
-            .strokedPath(.init(lineWidth: 30))
-    }
-}
 
+//  Gradient mask
+let grad = RadialGradient(
+    gradient: Gradient(
+        stops: [
+            .init(color: .purple, location: 0.0),
+            .init(color: .clear, location: 0.4)
+        ]),
+    center: .center,
+    startRadius: 40,
+    endRadius: 150
+)
+
+//  Refresh Button
 struct RefreshButton: View {
     var body: some View {
         ZStack {
@@ -39,17 +40,8 @@ struct RefreshButton: View {
     }
 }
 
-let grad = RadialGradient(
-    gradient: Gradient(
-        stops: [
-            .init(color: .purple, location: 0.0),
-            .init(color: .clear, location: 0.4)
-        ]),
-    center: .center,
-    startRadius: 40,
-    endRadius: 150
-)
 
+//  RefreshView
 struct RefreshView: View {
     @State var intensity: CGFloat = 0
     
@@ -78,32 +70,15 @@ struct RefreshView: View {
                 .font(.caption)
                 .fontWeight(.bold)
                 .opacity(0.60)
-//            Button {
-//                print("fetched")
-//            } label: {
-//                ZStack {
-//                    Circle()
-//                        .frame(width:200, height: 200, alignment: .center)
-//                        .blur(radius: 20)
-//                        .mask(grad)
-//                    Circle()
-//                        .frame(width: 100, height: 100, alignment: .center)
-//                    Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
-//                        .resizable()
-//                        .frame(width: 45, height: 45)
-//                        .foregroundColor(.black)
-//                        .padding()
-//                }
-//            }
-//            .preferredColorScheme(.dark)
         }
-        
     }
 }
+
+
+//  Preview
 struct RefreshView_Previews: PreviewProvider {
     static var previews: some View {
         RefreshView()
-        //                    .previewLayout(.sizeThatFits)
     }
 }
 

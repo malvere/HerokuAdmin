@@ -5,13 +5,11 @@
 //  Created by Kostya Kuznetsov on 12.12.2021.
 //
 
-// Token settings screen, uses LAContext for additional security
+//  Token settings screen, uses LAContext for additional security
 import SwiftUI
 
 struct TokenView: View {
-    
-    @State private var token: String = "kekw"
-    
+    @State private var token: String = ""
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -31,26 +29,27 @@ struct TokenView: View {
             HStack {
                 VStack(alignment: .leading, spacing: 12) {
                     Text("Token")
-                        .font(.title)
                         .fontWeight(.bold)
+                        .font(.system(.largeTitle, design: .rounded))
                     Text("Please, input your Heroku Token below:")
-                        .opacity(0.70)
+                        .foregroundColor(.secondary)
                 }
                 Spacer()
             }
             .padding()
             
             HStack {
-                Image(systemName: "key")
-                    .font(.title3)
+                Image(systemName: "key.viewfinder")
+                    .font(.largeTitle)
+                    .foregroundColor(.secondary)
                 TextField("Enter heroku token", text: $token)
                     .font(.system(.body, design: .monospaced))
                     .disableAutocorrection(true)
                     .textInputAutocapitalization(.none)
             }
             .padding()
-            .background(.purple.opacity(0.2))
-            .cornerRadius(12)
+            .background(.gray.opacity(0.2))
+            .cornerRadius(15)
             .padding()
             
             // Remove from keychain if token input field is empty, otherwise write new token to Keychain

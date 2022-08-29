@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct ListRowView: View {
-    
     let appName: String
     
     var body: some View {
@@ -25,5 +24,6 @@ struct ListRowView: View {
 struct ListRowView_Previews: PreviewProvider {
     static var previews: some View {
         ListRowView(appName: "this is the app").previewLayout(.sizeThatFits)
+            .preferredColorScheme(.dark)
     }
 }

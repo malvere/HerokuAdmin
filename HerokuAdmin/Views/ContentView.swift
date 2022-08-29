@@ -12,13 +12,30 @@ import LocalAuthentication
 struct ContentView: View {
     @StateObject var viewModel = AppListViewModel()
     @State private var showSettings: Bool = false
-    @StateObject var keyc = Keychain()
+    @State private var action: Int? = 0
     
-    var body: some View {
+//    ActionSheet variables
+    @State var isShowing: Bool = false
+    @State var isBlured: Bool = false
+    let blured: CGFloat = 6
+    var titleFont = UIFont.preferredFont(forTextStyle: .largeTitle)
+    
+//    Rounded NavigationBar Title font
+    init() {
+        titleFont = UIFont(
+            descriptor:
+                titleFont.fontDescriptor
+                .withDesign(.rounded)?
+                .withSymbolicTraits(.traitBold) ?? titleFont.fontDescriptor,
+            size: titleFont.pointSize
+        )
+        UINavigationBar.appearance().largeTitleTextAttributes = [.font: titleFont]
+    }
+    
+    var mainView: some View {
         VStack {
             if viewModel.appListView.isEmpty {
-                
-                // Refresh Button
+//                Refresh Button
                 Button {
                     viewModel.fetch()
                 } label: {
@@ -27,8 +44,7 @@ struct ContentView: View {
                 RefreshView()
                 
             } else {
-                
-                // Dynos List
+//                Dynos List
                 List {
                     ForEach(viewModel.appListView, id: \.self) { app in
                         HStack {
@@ -39,63 +55,73 @@ struct ContentView: View {
                         }
                     }
                 }
+                .listStyle(.inset)
             }
         }
         .navigationTitle("My Dynos")
         .toolbar {
-            Button(action: {
-                authorize()
-            }) {
-                
-                Image(systemName: "command.circle.fill")
-                    .resizable()
-                    .frame(width: 32, height: 32)
-                    .foregroundColor(.purple)
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button {
+                    print("---")
+                    print(viewModel.appListView)
+                    print("---")
+                    self.action = 1
+                } label: {
+                    Image(systemName: "tray.circle.fill")
+                        .resizable()
+                        .frame(width: 32, height: 32)
+                        .foregroundColor(.orange)
+                    NavigationLink(destination: SheetContentView().ignoresSafeArea(), tag: 1, selection: $action) {
+                        EmptyView()
+                    }
+                }
             }
-            .sheet(isPresented: $showSettings) {
-            } content: {
-                TokenView()
-            }
-        }
+            
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+                    //
+                    isShowing = true
+                    isBlured  = true
+                } label: {
+                    Image(systemName: "command.circle.fill")
+                        .resizable()
+                        .frame(width: 32, height: 32)
+                        .foregroundColor(.purple)
+                }
+            }}
         
-        // If JSON fetch will fail, refresh button with instructions will appear
+        
+//        If JSON fetch will fail, refresh button with instructions will appear
         .onAppear {
             viewModel.fetch()
         }
         .preferredColorScheme(.dark)
     }
     
-    func authorize() {
-        let context = LAContext()
-        var error: NSError? = nil
-        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
-            let reason = "Authorize to continue"
-            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply: { success, error in
-                DispatchQueue.main.async {
-                    guard success, error == nil else {
-                        print("Biometrics Failed")
-                        return
-                    }
-                    print("Success!")
-                    withAnimation(.easeOut){
-                        showSettings = true
-                    }
+//    Main Body
+    var body: some View {
+        ZStack {
+            NavigationView{
+                mainView
+                    .animation(.default, value: blured)
+                    .blur(radius: isBlured ? blured : 0, opaque: false)
+            }
+            .navigationBarHidden(true)
+            VStack {
+                ActionSheet(isShowing: $isShowing) {
+                    isBlured = false
                 }
-            })
-        } else {
-            print("Biometrics can't be used")
+            }
         }
     }
 }
 
 
-// Previews
+//  Previews
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            ContentView()
-                .previewInterfaceOrientation(.portrait)
-        }
+        ContentView()
+            .previewInterfaceOrientation(.portrait)
     }
 }
 
