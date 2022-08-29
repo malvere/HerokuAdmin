@@ -11,9 +11,7 @@ import SwiftUI
 struct HerokuAdminApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ContentView()
-            }
+            ContentView()
         }
     }
 }
