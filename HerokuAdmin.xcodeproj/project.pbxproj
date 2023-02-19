@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		6E44790927663D280044A404 /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E44790827663D280044A404 /* TokenView.swift */; };
 		6E4FA87428BB8A6A007E279B /* SheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4FA87328BB8A6A007E279B /* SheetContentView.swift */; };
 		6E50F8A92772A1C700A6D0CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E50F8A82772A1C700A6D0CB /* Constants.swift */; };
@@ -18,8 +17,6 @@
 		6E60D31928B43664004296C1 /* GreyBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D31828B43664004296C1 /* GreyBlurView.swift */; };
 		6E60D31B28B438B2004296C1 /* AppDetailActionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D31A28B438B2004296C1 /* AppDetailActionCardView.swift */; };
 		6E74506428B16F2100903F8C /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74506328B16F2100903F8C /* TestModel.swift */; };
-=======
->>>>>>> parent of f358727 (New App Icon)
 		6E9BE15A275D655A0061C4F1 /* HerokuAdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE159275D655A0061C4F1 /* HerokuAdminApp.swift */; };
 		6E9BE15C275D655A0061C4F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE15B275D655A0061C4F1 /* ContentView.swift */; };
 		6E9BE15E275D655B0061C4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BE15D275D655B0061C4F1 /* Assets.xcassets */; };
@@ -27,7 +24,6 @@
 		6E9BE16B275D655B0061C4F1 /* HerokuAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE16A275D655B0061C4F1 /* HerokuAdminTests.swift */; };
 		6E9BE175275D655B0061C4F1 /* HerokuAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE174275D655B0061C4F1 /* HerokuAdminUITests.swift */; };
 		6E9BE177275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BE176275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift */; };
-<<<<<<< HEAD
 		6EC84E3E2773B7EE00C9FEA6 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC84E3D2773B7EE00C9FEA6 /* RefreshView.swift */; };
 		6EEF8840275EBBFA00A4FDB1 /* HerokuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF883F275EBBFA00A4FDB1 /* HerokuApp.swift */; };
 		6EEF8842275EBE4D00A4FDB1 /* AppListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF8841275EBE4D00A4FDB1 /* AppListViewModel.swift */; };
@@ -35,8 +31,6 @@
 		6EEF8849275EDA8A00A4FDB1 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF8848275EDA8A00A4FDB1 /* AppDetailView.swift */; };
 		6EEF884B275EDC0000A4FDB1 /* AppSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF884A275EDC0000A4FDB1 /* AppSettingsViewModel.swift */; };
 		6EEF884D275EDC5C00A4FDB1 /* Dyno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF884C275EDC5C00A4FDB1 /* Dyno.swift */; };
-=======
->>>>>>> parent of f358727 (New App Icon)
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		6E44790827663D280044A404 /* TokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
 		6E4FA87328BB8A6A007E279B /* SheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetContentView.swift; sourceTree = "<group>"; };
 		6E50F8A82772A1C700A6D0CB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -70,8 +63,6 @@
 		6E60D31828B43664004296C1 /* GreyBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyBlurView.swift; sourceTree = "<group>"; };
 		6E60D31A28B438B2004296C1 /* AppDetailActionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailActionCardView.swift; sourceTree = "<group>"; };
 		6E74506328B16F2100903F8C /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
-=======
->>>>>>> parent of f358727 (New App Icon)
 		6E9BE156275D655A0061C4F1 /* HerokuAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerokuAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9BE159275D655A0061C4F1 /* HerokuAdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminApp.swift; sourceTree = "<group>"; };
 		6E9BE15B275D655A0061C4F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,9 +71,8 @@
 		6E9BE166275D655B0061C4F1 /* HerokuAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9BE16A275D655B0061C4F1 /* HerokuAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminTests.swift; sourceTree = "<group>"; };
 		6E9BE170275D655B0061C4F1 /* HerokuAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerokuAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E9BE174275D655B0061C4F1 /* HerokuAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminUITests.swift; sourceTree = "<group>"; };
+		6E9BE174275D655B0061C4F1 /* HerokuAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminUITests.swift; sourceTree = "<group>"; usesTabs = 1; };
 		6E9BE176275D655B0061C4F1 /* HerokuAdminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuAdminUITestsLaunchTests.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		6EC84E3D2773B7EE00C9FEA6 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		6EEF883F275EBBFA00A4FDB1 /* HerokuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuApp.swift; sourceTree = "<group>"; };
 		6EEF8841275EBE4D00A4FDB1 /* AppListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewModel.swift; sourceTree = "<group>"; };
@@ -90,8 +80,6 @@
 		6EEF8848275EDA8A00A4FDB1 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
 		6EEF884A275EDC0000A4FDB1 /* AppSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewModel.swift; sourceTree = "<group>"; };
 		6EEF884C275EDC5C00A4FDB1 /* Dyno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dyno.swift; sourceTree = "<group>"; };
-=======
->>>>>>> parent of f358727 (New App Icon)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,8 +141,12 @@
 		6E9BE158275D655A0061C4F1 /* HerokuAdmin */ = {
 			isa = PBXGroup;
 			children = (
+				6E5581BB276FCF5E00993557 /* Info.plist */,
+				6E5581BA276FCD6400993557 /* HerokuAdmin.entitlements */,
 				6E9BE159275D655A0061C4F1 /* HerokuAdminApp.swift */,
-				6E9BE15B275D655A0061C4F1 /* ContentView.swift */,
+				6EEF8847275ED75300A4FDB1 /* ViewModel */,
+				6EEF8844275ECC7200A4FDB1 /* Models */,
+				6EEF8843275ECC6000A4FDB1 /* Views */,
 				6E9BE15D275D655B0061C4F1 /* Assets.xcassets */,
 				6E9BE15F275D655B0061C4F1 /* Preview Content */,
 			);
@@ -186,7 +178,6 @@
 			path = HerokuAdminUITests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		6EEF8843275ECC6000A4FDB1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,8 +214,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-=======
->>>>>>> parent of f358727 (New App Icon)
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -355,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				6E60D31928B43664004296C1 /* GreyBlurView.swift in Sources */,
 				6E60D31B28B438B2004296C1 /* AppDetailActionCardView.swift in Sources */,
 				6EEF8842275EBE4D00A4FDB1 /* AppListViewModel.swift in Sources */,
@@ -369,10 +357,12 @@
 				6EC84E3E2773B7EE00C9FEA6 /* RefreshView.swift in Sources */,
 				6EEF8846275ECF2400A4FDB1 /* ListRowView.swift in Sources */,
 				6E4FA87428BB8A6A007E279B /* SheetContentView.swift in Sources */,
-=======
->>>>>>> parent of f358727 (New App Icon)
 				6E9BE15C275D655A0061C4F1 /* ContentView.swift in Sources */,
 				6E9BE15A275D655A0061C4F1 /* HerokuAdminApp.swift in Sources */,
+				6E5581B9276F6EB700993557 /* KeychainModel.swift in Sources */,
+				6E50F8A92772A1C700A6D0CB /* Constants.swift in Sources */,
+				6EEF884D275EDC5C00A4FDB1 /* Dyno.swift in Sources */,
+				6EEF884B275EDC0000A4FDB1 /* AppSettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,35 +520,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HerokuAdmin/HerokuAdmin.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"HerokuAdmin/Preview Content\"";
-<<<<<<< HEAD
 				DEVELOPMENT_TEAM = 7L7L7Y6N5A;
-=======
->>>>>>> parent of f358727 (New App Icon)
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HerokuAdmin/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please allow for FaceID integration";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-<<<<<<< HEAD
 				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = malvereinc.HerokuAdmin;
-=======
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdmin;
->>>>>>> parent of f358727 (New App Icon)
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -567,35 +555,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HerokuAdmin/HerokuAdmin.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"HerokuAdmin/Preview Content\"";
-<<<<<<< HEAD
 				DEVELOPMENT_TEAM = 7L7L7Y6N5A;
-=======
->>>>>>> parent of f358727 (New App Icon)
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HerokuAdmin/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please allow for FaceID integration";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-<<<<<<< HEAD
 				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = malvereinc.HerokuAdmin;
-=======
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = malverecorp.HerokuAdmin;
->>>>>>> parent of f358727 (New App Icon)
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
