@@ -4,7 +4,6 @@
 //
 //  Created by Kostya Kuznetsov on 07.12.2021.
 //
-
 //JSON model for dyno info API call
 import Foundation
 

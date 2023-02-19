@@ -4,7 +4,6 @@
 //
 //  Created by Kostya Kuznetsov on 07.12.2021.
 //
-
 // JSON model for heroku app list API response
 import Foundation
 
